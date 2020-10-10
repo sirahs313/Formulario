@@ -1,0 +1,89 @@
+body{
+	
+	
+	font-family: 'Comic sans Ms';
+ 
+background: #f12711; 
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+background: linear-gradient(to right, #f5af19, #f12711); 
+
+
+height: 720px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+               
+}
+form{
+	background: #fff;
+	padding:20px 60px;
+	box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.8);
+	border-radius: 20px;
+	
+
+
+}
+.form{
+	width: 100%;
+	margin: auto;
+ 
+}
+form .grupo{
+	position: relative;
+	margin: 40px;
+	
+	
+}
+
+td{
+    background: none;
+	color: #0B0B0B;
+	font-size: 10px;
+	padding: -12px 30px ;
+	display: compact
+      
+	width: 100%;
+	border: none;
+}
+
+
+.centradoverde{
+    font-family: Comic Sans Ms;
+    font-size:  30px;
+    text-align: center;
+    background-color: #f5af19;
+    height:60px;
+    box-shadow: 0 0 5px 0 #f5af19;
+    border-radius: 20px;
+}
+.descripcion{
+    font-family: Comic Sans Ms;
+    font-size: 12px;
+}
+.valor{
+    font-family: Comic Sans Ms;
+    font-size: 12px;
+    
+}
+#formulario{
+    text-align: center;
+    
+}
+.form input:focus{
+	
+}
+button{
+
+	font-family: 'Comic sans Ms';
+	background: #f12711;
+	border-radius: 20px;
+	display: compact;
+	width: 40%;
+	margin: 10px auto;
+	color: #fff;
+	height: 30px;
+	font-size: 16px;
+	cursor: pointer;
+        box-shadow: 0 0 5px 0 #f12711;
+}

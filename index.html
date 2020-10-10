@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    </head>
+    <body>
+
+            <div id="formulario">
+                <form name="Registro" action="Reg/Registros.php" method="post">
+                    <table border="0" align="center">
+                        <tr>
+                            <td class="centradoverde" colspan="2"> Registro inscripcion</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="descripcion">Nombre´s:</td>
+                            <td class="valor">
+                                <input type="text" name="nombre" maxlength="14" size="14"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Apellido Paterno:</td>
+                            <td class="valor">
+                                <input type="text" name="apeP" maxlength="14" size="14"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Apellido Materno:</td>
+                            <td class="valor">
+                                <input type="text" name="apeM" maxlength="14" size="14"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Correo:</td>
+                            <td class="valor">
+                                <input type="email" name="correo"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Poblacion:</td>
+                            <td class="valor">
+                                <input type="text" name="poblacion"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Provincia:</td>
+                            <td class="valor">
+                                <input type="text" name="provincia"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Edad:</td>
+                            <td class="valor">
+                                <input type="radio" name="edad" value="0-20"/>0-20
+                                <br>
+                                 <input type="radio" name="edad" value="20-40"/>20-40
+                                 <br>
+                                  <input type="radio" name="edad" value="40-60"/>40-60
+                                  <br>
+                                   <input type="radio" name="edad" value="60-100"/>60-100
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Como nos conociste?</td>
+                          
+                            <td class="valor">
+                                <input type="checkbox" name="com" value="A travez de un amigo"/>A travez de un amigo <br/>
+                                 <input type="checkbox" name="com" value="A travez de un buscador"/>A travez de un buscador <br/>
+                                  <input type="checkbox" name="com" value="Navegando por la red"/>Navegando por la red <br/>
+                                   <input type="checkbox" name="com" value="Otros"/>Otros <br/>
+                                
+                            
+                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Cual es tu expectativa al terminar el curso de programacion</td>
+                            <td class="valor">
+                                <input type="text" placeholder="Ingresa tu respuesta(opcional)" size="50" name="com2"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Tiene alguna sugerencia...</td>
+                            <td class="valor">
+                                <input type="text"placeholder="Ingresa tu respuesta(opcional)" size="50" name="com3"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="descripcion">Cuanto tiempo pasas en internet?</td>
+                            <td class="valor">
+                                <select name="hora">
+                                    <option value="No ingreso datos">Selecciona</option>
+                                    <option value="Menos de 2 Horas">Menos de 2 Horas</option>
+                                    <option value="2 Horas">2 Horas</option>
+                                    <option value="6 Horas">6 Horas</option>
+                                    <option value="Mas de 6 Horas">Mas de 6 Horas</option>
+                                </select>
+                            
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="centradoverde" colspan="2">
+                                <button  type="submit">Ingresar</button>
+                             <button type="reset" value="Limpiar" class="default">Limpiar</button>
+                        </td>
+                    </tr>
+                           
+                    </table>
+                </form>
+        </div>
+        </div>
+    </body>
+</html>
